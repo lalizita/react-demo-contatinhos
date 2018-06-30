@@ -33,7 +33,7 @@ class Contatinhos extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{textAlign:'center'}}>
         <ContatoDoCrush contato={this.state.whatsapp}/>
         <Crush onClick={this.setWhatsAppState} nome="Rafael" whatsapp="98899885"/>
         <Crush onClick={this.setWhatsAppState} nome="Brunão" whatsapp="954661200"/>
